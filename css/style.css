@@ -154,10 +154,6 @@ footer ul li a{
 }
 
 @media only screen and (min-width: 480px){
-  body {
-	  background-color: yellow;
-	}
-  
   #wrap{
     padding: 2% 5%;
   }
@@ -196,10 +192,6 @@ footer ul li a{
 }
 
 @media only screen and (min-width: 992px){
-  body {
-	  background-color: pink;
-	}
-  
   .col-L{
     width: 43%;
 	  margin: 0 2% 5% 5%;
