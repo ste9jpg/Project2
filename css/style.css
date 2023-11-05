@@ -59,8 +59,13 @@ nav {
   position: relative;
 }
 
-ul li{
+nav ul li{
   float: none;
+}
+
+ul li{
+  float: left;
+  padding: 14px 16px;
 }
 
 ul li a{
@@ -92,7 +97,9 @@ ul li a:hover {
   background-color: pink;
 }
 
-
+img{
+  width: 50%;
+}
 
 #socials{
   float: right;
