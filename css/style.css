@@ -43,7 +43,7 @@ p{
 }
 
 header{
-  background-color: grey;
+  background: #3970d4;
 }
 
 #logo{
@@ -56,7 +56,6 @@ ul{
 
 nav {
   overflow: hidden;
-  background-color: #256F5C;
   position: relative;
 }
 
@@ -72,7 +71,6 @@ ul li{
 ul li a{
   display: block;
   text-decoration: none;
-  color: black;
   font-size: 17px;
   padding: 14px 16px;
 }
@@ -83,8 +81,8 @@ nav a {
 
 nav #myLinks {
   display: none;
-  background-color: #748ba7;
-  color: #051b38;
+  background: #86a9e9;
+  color: #0b3f9d;
 }
 
 nav a.icon {
@@ -96,12 +94,14 @@ nav a.icon {
 }
 
 ul li a:hover {
-  background-color: #143054;
-  color: #748ba7;
+  color: #0b3f9d;
+  background: none;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 a{
-  color: #003729;
+  color: #0b3f9d;
 }
 
 img{
@@ -142,7 +142,7 @@ img{
 footer{
   clear: both;
   width: 100%;
-  background-color: #a8db92;
+  background: #86a9e9;
   overflow: hidden;
 }
 
@@ -151,13 +151,9 @@ footer ul{
 }
 
 footer ul li a{
-  color: #2e6e12;
+  color: #0b3f9d;
 }
 
-footer ul li a:hover{
-  color: #6fa698;
-  background: #0e5342;
-}
 #socials{
   float: right;
 }
