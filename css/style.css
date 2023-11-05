@@ -99,45 +99,40 @@ ul li a:hover {
 }
 
 img{
- 
  padding-top: 1.2em;
-  
 }
-
-
 
 .rowb{
   overflow: hidden;
   clear: both;
-  background-color: grey;
   padding: 20px;
 	border-top: 1px solid;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 
 .rowb2{
   overflow: hidden;
   clear: both;
-  background-color: pink;
   padding: 20px;
   border-top: 1px solid;
 	border-bottom: 1px solid;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .col-L img{
-    width: 100%;
-    background-color: red;
     text-align: center;
+    width: 100%;
+    height: auto;
   }
   
 .col-R img{
-    width: 100%;
-    background-color: red;
     text-align: center;
+    width: 100%;
+    height: auto;
   }
   
+
 footer{
   clear: both;
   width: 100%;
@@ -179,13 +174,22 @@ footer ul{
   }
 	
 	.col-L img{
- 
+    float: left;
+    width: 70%;
   }
   
-.col-R img{
-   
+  .col-R img{
+    float: right;
+    width: 70%;
   }
 
+  .col-L .H-img{
+    width: 100%;
+  }
+
+  .col-R .H-img{
+    width: 80%;
+  }
 
 	
 
