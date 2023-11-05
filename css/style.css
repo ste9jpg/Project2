@@ -4,13 +4,14 @@ html{
 	font-family: 'Inter', serif;
   text-rendering: optimizeLegibility;
 	height: 100%;
+  padding-top: 1.2em; 
   padding-bottom: 1.2em; 
 }
 
 h1{
 	font-size: 1.575em; 
   line-height: 1.2em;
-  padding-top: 1.2em; 
+  padding-top: 1.2em;
   padding-bottom: 1.2em; 
   text-transform: uppercase;
   text-align: center;
@@ -18,27 +19,27 @@ h1{
 
 h2{
 	font-size: 1.476em; 
-	line-height: 1.2em;
-  padding-top: 1.2em; 
+	line-height: 1.2em; 
+  padding-top: 1.2em;
   padding-bottom: 1.2em; 
 }
 
 h3{
 	font-size: 1.383em; 
   line-height: 1.2em;
-  padding-top: 1.2em; 
+  padding-top: 1.2em;
   padding-bottom: 1.2em; 
 	color: #E1CA96; 
 }
 
 p{
-	padding-top: 1.2em; 
+  padding-top: 1.2em;
   padding-bottom: 1.2em; 
 }
 
 
 #wrap{
-  padding: 2% 5%;
+  width: 100;
 }
 
 header{
@@ -98,24 +99,45 @@ ul li a:hover {
 }
 
 img{
-  width: 50%;
+ 
+ padding-top: 1.2em;
+  
 }
 
-#socials{
-  float: right;
-}
+
 
 .rowb{
-	padding: 20px;
+  overflow: hidden;
+  clear: both;
+  background-color: grey;
+  padding: 20px;
 	border-top: 1px solid;
+  margin: 0 auto;
 }
+
 
 .rowb2{
-	padding: 20px;
+  overflow: hidden;
+  clear: both;
+  background-color: pink;
+  padding: 20px;
   border-top: 1px solid;
 	border-bottom: 1px solid;
+  margin: 0 auto;
 }
 
+.col-L img{
+    width: 100%;
+    background-color: red;
+    text-align: center;
+  }
+  
+.col-R img{
+    width: 100%;
+    background-color: red;
+    text-align: center;
+  }
+  
 footer{
   clear: both;
   width: 100%;
@@ -125,6 +147,48 @@ footer{
 
 footer ul{
   float: left;
+}
+
+#socials{
+  float: right;
+}
+
+@media only screen and (min-width: 480px){
+  img{
+	  
+  }
+	
+}
+
+@media only screen and (min-width: 992px){
+  
+  #wrap{
+    padding: 2% 5%;
+  }
+  
+  .col-L{
+    float: left;
+    width: 43%;
+	  margin: 0 2% 5% 5%;
+  }
+  
+  .col-R{
+    float: right;
+    width: 43%;
+    margin: 0 5% 5% 2%;
+  }
+	
+	.col-L img{
+ 
+  }
+  
+.col-R img{
+   
+  }
+
+
+	
+
 }
 
 
