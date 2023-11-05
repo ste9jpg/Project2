@@ -51,20 +51,48 @@ header{
 
 ul{
   list-style-type: none;
-  float: right;
+}
+
+nav {
+  overflow: hidden;
+  background-color: grey;
+  position: relative;
 }
 
 ul li{
-  float: left;
-  padding: 10px 20px;
-  
+  float: none;
 }
 
 ul li a{
   display: block;
   text-decoration: none;
- 
+  color: black;
+  font-size: 17px;
+  padding: 14px 16px;
 }
+
+nav a {
+  padding: 14px 16px;
+}
+
+nav #myLinks {
+  display: none;
+  background-color: lightgrey;
+}
+
+nav a.icon {
+  background: none;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+ul li a:hover {
+  background-color: pink;
+}
+
+
 
 #socials{
   float: right;
