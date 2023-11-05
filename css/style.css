@@ -159,14 +159,19 @@ footer ul li a{
 }
 
 @media only screen and (min-width: 480px){
-  img{
-	  
+  .col-L img{
+    float: left;
+    width: 40%;
   }
-	
+  
+  .col-R img{
+    float: right;
+    width: 50%;
+  }
+ 
 }
 
 @media only screen and (min-width: 992px){
-  
   #wrap{
     padding: 2% 5%;
   }
@@ -200,9 +205,6 @@ footer ul li a{
   .col-R .H-img{
     width: 80%;
   }
-
-	
-
 }
 
 
