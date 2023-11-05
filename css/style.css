@@ -37,11 +37,6 @@ p{
   padding-bottom: 1.2em; 
 }
 
-
-#wrap{
-  width: 100;
-}
-
 header{
   background: #3970d4;
 }
@@ -159,43 +154,35 @@ footer ul li a{
 }
 
 @media only screen and (min-width: 480px){
-  .col-L img{
-    float: left;
-    width: 40%;
-  }
+  body {
+	  background-color: yellow;
+	}
   
-  .col-R img{
-    float: right;
-    width: 50%;
-  }
- 
-}
-
-@media only screen and (min-width: 992px){
   #wrap{
     padding: 2% 5%;
   }
   
   .col-L{
     float: left;
-    width: 43%;
-	  margin: 0 2% 5% 5%;
+    width: 40%;
+    margin: 2%;
   }
   
   .col-R{
     float: right;
-    width: 43%;
-    margin: 0 5% 5% 2%;
+    width: 40%;
+    margin: 2%;
+
   }
 	
 	.col-L img{
     float: left;
-    width: 70%;
+    width: 100%;
   }
   
   .col-R img{
     float: right;
-    width: 70%;
+    width: 100%;
   }
 
   .col-L .H-img{
@@ -204,6 +191,31 @@ footer ul li a{
 
   .col-R .H-img{
     width: 80%;
+  }
+
+}
+
+@media only screen and (min-width: 992px){
+  body {
+	  background-color: pink;
+	}
+  
+  .col-L{
+    width: 43%;
+	  margin: 0 2% 5% 5%;
+  }
+  
+  .col-R{
+    width: 43%;
+    margin: 0 5% 5% 2%;
+  }
+	
+	.col-L img{
+    width: 70%;
+  }
+  
+  .col-R img{
+    width: 70%;
   }
 }
 
