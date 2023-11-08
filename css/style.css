@@ -51,7 +51,7 @@ nav {
 }
 
 nav ul li{
-  float: left;
+  float: none;
 }
 
 ul li{
