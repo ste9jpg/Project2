@@ -229,9 +229,10 @@ footer ul li a{
 /*The background display of form*/
 .form-body{
     background: white;
-    display: block;
+    display: flex;
     position: absolute;
-    justify-content: center;
+    justify-content: space-between;
+	align-items: center;
     border-radius: 15px;
     height: 500px;
     width: 780px;
@@ -243,7 +244,9 @@ footer ul li a{
 /*Left side of form*/
 .contact-container{
 	max-width: 300px;
+	padding: 20px;
 	display: flex;
+	background-color: white;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
