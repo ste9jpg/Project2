@@ -11,19 +11,18 @@
   </div>
   <div class="contact-container">
     <form method="get" action="#null" autocomplete="on">
-	  <h2>CONTACT US</h2>
+	    <h2>CONTACT US</h2>
 	    <ol>
-	      <li id="input-name">
-		    <label for="name" class="k-block"></label>
-		    <input type="text" id="name" class="form-control form-control-lg thick" placeholder="Name">
-		  <li id="input-email">
-		    <label for="email" class="k-block"></label>
-		    <input type="email" id="email" class="form-control form-control-lg thick" placeholder="E-mail">
-		  </li>
-		  <li id="input-message">
-		    <label for="message"></label>
-		    <textarea id="input-message" class="form-control form-control-lg" rows="7" placeholder="Text">Leave a Message: </textarea>
-		  </li>
+	    <li id="input-name">
+		 <label for="name"> Name: </label>
+		 <input type="text" id="name" name="name">
+		<li id="input-email">
+		  <label for="email"> Email: </label>
+		  <input type="email" id="email" name="email">
+		</li>
+		<li id="input-message">
+		  <label for="message">Leave a Message:</label>
+		  <textarea name="message" placeholder="Type here" required></textarea>
 		  <button type="reset">Send</button>
 	  </ol>
 </body>	
