@@ -242,12 +242,10 @@ footer ul li a{
 } 
 
 /*Left side of form*/
-.contact-container{
+form{
 	max-width: 300px;
 	padding: 20px;
-	padding-right:  30px;
 	display: flex;
-	background-color: white;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
