@@ -228,30 +228,21 @@ footer ul li a{
 } 
 /*The background display of form*/
 .form-body{
-  background: white;
-  display: block;
-  position: absolute;
-  justify-content: center;
-  border-radius: 15px;
-  height: 500px;
-  width: 780px;
-  padding: 50px;
-  margin: 20px 40px 60px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
-  z-index: -1;
+    background: white;
+    display: block;
+    position: absolute;
+    justify-content: center;
+    border-radius: 15px;
+    height: 500px;
+    width: 780px;
+    padding: 50px;
+    margin: 20px 40px 60px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    z-index: -1;
 } 
 
 /*Left side of form*/
-.contact-container{
-	max-width: 300px;
-	display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 20px;
-    position: relative;
-    max-width: 840px;
-}
+
 .contact-container, textarea{
 	max-width: 300px;
 	background-color: #d9d9d9;
