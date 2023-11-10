@@ -246,12 +246,11 @@ form{
 	max-width: 300px;
 	padding: 20px;
 	display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
     padding: 20px;
     position: relative;
-    max-width: 840px;
 }
 input{
     box-sizing: border-box;
