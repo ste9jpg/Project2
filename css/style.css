@@ -1,3 +1,5 @@
+/* CSS for all pages */
+
 html{
   font-size: 1em; /* 16px */
   line-height: 1.2em;  
@@ -95,6 +97,26 @@ a{
   color: #0b3f9d;
 }
 
+footer{
+  clear: both;
+  width: 100%;
+  background: #86a9e9;
+  overflow: hidden;
+}
+
+footer ul{
+  float: left;
+}
+
+footer ul li a{
+  color: #0b3f9d;
+}
+
+#socials{
+  float: right;
+}
+
+/* CSS for Home Page */
 img{
  padding-top: 1.2em;
 }
@@ -129,25 +151,6 @@ img{
     height: auto;
   }
   
-
-footer{
-  clear: both;
-  width: 100%;
-  background: #86a9e9;
-  overflow: hidden;
-}
-
-footer ul{
-  float: left;
-}
-
-footer ul li a{
-  color: #0b3f9d;
-}
-
-#socials{
-  float: right;
-}
 
 @media only screen and (min-width: 480px){
   #wrap{
