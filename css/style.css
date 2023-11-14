@@ -1,20 +1,11 @@
 /* CSS for all pages */
 
 html{
-  font-size: 1em; /* 16px */
+  font-size: 16px; 
   line-height: 1.2em;  
   text-rendering: optimizeLegibility;
 	height: 100%;
-  padding-top: 1.2em; 
   padding-bottom: 1.2em; 
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-body {
-  font-family: 'Roboto', Arial, serif;
-  background-color: #f5f5f5; /* Soft background color */
-  color: #333; /* Primary text color */
 }
 
 h1{
@@ -46,12 +37,20 @@ p{
   padding-bottom: 1.2em; 
 }
 
-header{
-  background: #3970d4;
+#logo{
+  padding: 0;
+}
+
+#head-center{
+  margin: 0% 10% 0% 10%;
 }
 
 ul{
   list-style-type: none;
+}
+
+a{
+  color: #0b3f9d;
 }
 
 nav {
@@ -71,7 +70,7 @@ ul li{
 ul li a{
   display: block;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
   padding: 14px 16px;
 }
 
@@ -81,8 +80,8 @@ nav a {
 
 nav #myLinks {
   display: none;
-  background: #86a9e9;
-  color: #0b3f9d;
+  text-align: center;
+  background-color: grey;
 }
 
 nav a.icon {
@@ -94,14 +93,10 @@ nav a.icon {
 }
 
 ul li a:hover {
-  color: #0b3f9d;
+  color: #0b3	f9d;
   background: none;
   text-decoration: underline;
   text-underline-position: under;
-}
-
-a{
-  color: #0b3f9d;
 }
 
 footer{
@@ -111,16 +106,21 @@ footer{
   overflow: hidden;
 }
 
-footer ul{
-  float: left;
-}
-
 footer ul li a{
   color: #0b3f9d;
 }
 
+#f-forms{
+  float: left;
+}
+
 #socials{
   float: right;
+}
+
+
+footer img {
+  padding: 0;
 }
 
 /* CSS for index.html */
@@ -128,12 +128,16 @@ img{
  padding-top: 1.2em;
 }
 
-.row{
-  background-color: pink;
-  height: 500px; 
-  background-image: url("images/1-Home.jpg");
-  height: 400px;
-   width: 100%;
+#row{
+  margin: 0% 10% 0% 10%;
+
+}
+
+#img{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 0;
 }
 
 .rowb{
@@ -167,7 +171,7 @@ img{
   }
   
 
-@media only screen and (min-width: 480px){
+@media only screen and (min-width: 680px){
   #wrap{
     padding: 2% 5%;
   }
@@ -202,7 +206,8 @@ img{
   .col-R .H-img{
     width: 80%;
   }
-
+  
+  
 }
 
 @media only screen and (min-width: 992px){
@@ -223,6 +228,55 @@ img{
   .col-R img{
     width: 70%;
   }
+  
+  html{
+  font-size: 22px; 
+  }
+  
+  nav {
+    position: relative;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+
+  nav ul li{
+    float: left;
+  }
+
+
+  ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 14px 16px;
+  }
+
+  nav a {
+    padding: 14px 16px;
+  }
+
+  nav #myLinks {
+    display: block;
+    float: right;
+    background: none;
+    color: #0b3f9d;
+    clear: both;
+  }
+
+  nav a.icon {
+    display: none;
+  }
+
+  ul li a:hover {
+    color: #0b3f9d;
+    background: none;
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  
+  
 }
 
 
