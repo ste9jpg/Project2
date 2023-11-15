@@ -356,6 +356,8 @@ input, textarea{
   border-radius: 5px;
 }
 
+
+/******* Media Query *******/
 @media only screen and (max-width: 600px){
    .form-body {
 	  flex-direction: column;
@@ -365,8 +367,16 @@ input, textarea{
     }  
 	
 }
+@media (min-width: 1024px) {
+    .form-body {
+        font-size: 120%; 
+    }
+	
+}
 
-/******* End of Steph's CSS *******\
+
+
+/******* End of Steph's CSS *******/
 
 
 /* CSS for isud.html *\
