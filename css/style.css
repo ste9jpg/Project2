@@ -176,28 +176,6 @@ footer img {
 }
 
 @media only screen and (min-width: 680px){
-  #wrap{
-    margin: 0% 10% 0% 10%;
-  }
-  
-  .col{
-    float: left;
-    width: 30%;
-    margin-left: 2.5%;
-    background-color: #f7f7f7;
-    height: auto;
-  }
-  
-  .col-inner-img{
-    height: 180px;
-  }
-}
-
-@media only screen and (min-width: 992px){
-  html{
-  font-size: 22px; 
-  }
-  
   nav {
     position: relative;
   }
@@ -242,6 +220,28 @@ footer img {
     text-underline-position: under;
   }
   
+  #wrap{
+    margin: 0% 10% 0% 10%;
+  }
+  
+  .col{
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+    background-color: #f7f7f7;
+    height: auto;
+  }
+  
+  .col-inner-img{
+    height: 180px;
+  }
+}
+
+@media only screen and (min-width: 1050px){
+  html{
+  font-size: 22px; 
+  }
+  
   .blue-background{
     margin: 0;
     padding: 0;
@@ -258,6 +258,7 @@ footer img {
       #002b80 100%
     );
   }
+  
   
   #row {
     width: 100%;
