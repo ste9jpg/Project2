@@ -356,6 +356,25 @@ input, textarea{
   border-radius: 5px;
 }
 
+@media only screen and (max-widtj: 600px){
+  .form-background {
+	  padding: 20px;
+  }
+  
+  .form-body {
+	  width: 100%;
+  }
+  
+  #name,
+  #email,
+  textarea {
+	  width: 100%;
+	  box-sizing: border-box;
+  }
+  
+	
+}
+
 /******* End of Steph's CSS *******\
 
 
