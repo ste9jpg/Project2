@@ -331,7 +331,11 @@ footer img {
 
 /*Form*/
 .logo-container{
-	background-color: #004d99;	
+	background-color: #004d99;
+	border-radius: 15px;
+	width: 80%;
+	max-width: 600px;
+    	
 	
 }
 
