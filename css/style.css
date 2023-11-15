@@ -317,26 +317,26 @@ footer img {
 .form-body{
   background: white;
   display: flex;
-  position: absolute;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   border-radius: 15px;
-  height: 500px;
-  width: 780px;
-  padding: 50px;
-  margin: 20px 40px 60px;
+  height: auto;
+  width: 80%px;
+  max-width: 780px;
+  padding: 20px;
+  margin: 20px auto;
   box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
 } 
 
 /*Left side of form*/
 form{
-  max-width: 300px;
+  max-width: 100%;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 20px;
   position: relative;
 }
 
@@ -357,21 +357,12 @@ input, textarea{
 }
 
 @media only screen and (max-width: 600px){
-  .form-background {
-	  padding: 20px;
-  }
-  
-  .form-body {
-	  width: 100%;
-  }
-  
-  #name,
-  #email,
-  textarea {
-	  width: 100%;
-	  box-sizing: border-box;
-  }
-  
+   .form-body {
+	  flex-direction: column;
+	  width: 90%;
+	  padding: 10px;
+	  
+    }  
 	
 }
 
